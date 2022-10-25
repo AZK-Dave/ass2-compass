@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="css/external.css">
+</head>
+<body>
+    <div class="iphone">
+        <header class="header">
+            <h1>Sweet Food</h1>
+        </header>
+
+        <form action="" class="form" method="POST">
+            <div>
+                <h2>Your Items</h2><br/>
+                <div class="card">
+                    1.Omelette      x2 <br/>
+                    2.Egg sandwich  x1 <br/>
+                    3.Black coffee  x2
+                </div>
+            </div>
+
+            <fieldset>
+                <legend>Payment Method</legend>
+
+                <div class="form_radio">
+                    <label for="WavePay">Wave Money</label>
+                    <input checked id="WavePay" name="payment-method" type="radio"> 
+                </div>
+
+                <div class="form_radio">
+                    <label for="KPay">KBZ Pay</label>
+                    <input id="KPay" name="payment-method" type="radio"> 
+                </div>
+
+                <div class="form_radio">
+                    <label for="COD">Cash On delivery</label>
+                    <input id="COD" name="payment-method" type="radio"> 
+                </div>
+            </fieldset>
+
+            <div>
+                <lable for="address"><h2>Address</h2></lable><br/>
+                <input type="text" style="width:100%; height:4em; border-radius: 0.5em;"  id="address" class="address" name="address">
+            </div>
+
+            <div>
+                <button  class="button button--full" type="sumit">BUY NOW</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>

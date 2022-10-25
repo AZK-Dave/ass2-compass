@@ -1,0 +1,53 @@
+:root {
+    --BackgroundColor: #c7eae4;
+
+  }
+
+  .medal-tally-wrapper {
+    width: 940px;
+    margin: auto;
+    padding: 2vw;
+  }
+
+  .medal-tally-wrapper * {
+    box-sizing: border-box;
+  }
+
+  table {
+    width: 100%;
+    max-width: 940px;
+    border-collapse: collapse;
+    background-color: var(--BackgroundColor);
+  }
+
+  tr.medal-title-row th {
+    width: auto;
+  }
+
+  tr.medal-title-row td {
+    width: 20%;
+  }
+
+  
+  td,
+  th {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 12px 12px;
+    font-weight: unset;
+  }
+
+  thead {
+    position: sticky;
+    top: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: lightskyblue;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  
+  thead th {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
